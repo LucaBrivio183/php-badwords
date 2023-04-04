@@ -7,6 +7,12 @@
     <title>PHP Badwords</title>
 </head>
 <body>
-    
+<form action="censuring.php" method="GET">
+        <input type="text" placeholder='Insert text here'>
+        <hr>
+        <input type="text" placeholder='Choose word to censure'>
+        <hr>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
